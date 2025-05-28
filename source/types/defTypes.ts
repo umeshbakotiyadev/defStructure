@@ -8,7 +8,7 @@ import { _COL } from "../colors";
 import { EdgeInsets } from "react-native-safe-area-context";
 import { FONT } from "../assets";
 import { ReactNode } from "react";
-import { StackScreenProps } from "@react-navigation/stack";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { AndroidPermission, IOSPermission } from "react-native-permissions";
 
 type zuStandInitStoreType = {
@@ -60,7 +60,7 @@ type PressXType = {
     mSty?: ViewStyle;
     hitSlop?: number;
     mProps?: AnimateProps<ViewProps>;
-    cProps?: PressableProps;
+    // cProps?: PressableProps;
     tProps?: TextProps;
     lProps?: ActivityIndicatorProps;
     pStyIdx?: number;
@@ -266,7 +266,7 @@ type AppStackParamListType = {
 };
 
 type StackProps<RouteName extends keyof AppStackParamListType> = (
-    StackScreenProps<AppStackParamListType, RouteName, "AppStack">
+    NativeStackScreenProps<AppStackParamListType, RouteName, "AppStack">
 );
 
 type getImageMetaDataType = {

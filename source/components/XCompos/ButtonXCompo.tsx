@@ -9,19 +9,23 @@ const ButtonXCompo = (porps: PressXType & { transparent?: boolean }) => {
     const { transparent } = porps;
     const { col, font } = useThemeX();
     return (<PressXCompo
-        // h={55}
-        f={1}
-        radius={btnRadius}
-        alignI='center'
-        justify='center'
-        bgCol={transparent ? col?.TRANSPARENT : col.BTN_BGCOL}
+        {...porps}
         tSty={{
             color: transparent ? col.BTN_BGCOL : col.BTN_TEXT_COL,
             fontFamily: font.BOLD,
             fontSize: Size(15),
+            ...porps?.tSty,
         }}
-        {...porps}
-        cSty={{ borderWidth: 1, borderColor: col.BTN_BGCOL, ...porps?.cSty }}
+        cSty={{
+            flex: 1,
+            borderWidth: 1,
+            borderColor: col.BTN_BGCOL,
+            borderRadius: btnRadius,
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: transparent ? col?.TRANSPARENT : col.BTN_BGCOL,
+            ...porps?.cSty
+        }}
         mSty={{ height: 55, flex: 1, ...porps?.mSty }}
     />)
 }
