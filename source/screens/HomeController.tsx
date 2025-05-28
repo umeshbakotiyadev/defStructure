@@ -3,18 +3,16 @@ import React from 'react'
 import { ButtonX, MasterView, PressX } from '../components'
 import { useThemeX } from '../hooks'
 import { defStyObjType } from '../types'
+import MapView from 'react-native-maps'
 
 const HomeController = () => {
 
     const { defStyOBJ } = useThemeX();
     const sty = styFN(defStyOBJ);
 
-    return (
-        <MasterView title="DefStructure" backBtn={false} >
-            <PressX text="Hello" />
-            <ButtonX text="Hello" />
-        </MasterView>
-    )
+    return <MapView>
+
+    </MapView>
 }
 
 export default HomeController

@@ -3,6 +3,8 @@ import { kBehavior, setZuStandInitStoreType, zuStandInitStoreType, zuStandStoreO
 import { Platform, StatusBar } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 // import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import LOCATION_DATA from "./locations.json"
+import Supercluster from "react-native-clusterer/lib/typescript/types";
 
 const _isDEV = false;
 const _isPUBLISH_MODE = false;
@@ -33,8 +35,11 @@ const setZuStandInitStore: setZuStandInitStoreType = {
 
 const zuStandStoreOBJ: zuStandStoreOBJType = { ...zuStandInitStore, ...setZuStandInitStore };
 
+const locationData = LOCATION_DATA;
+
 export {
     _isDEV, _isPUBLISH_MODE, AppStack, isIOS, isANDROID, androidAPIVersion,
     bSpace, headerHeight, btnHeight, kAvoidSty, sbH, btnRadius,
     zuStandInitStore, setZuStandInitStore, zuStandStoreOBJ, /* BottomTabStack */
+    locationData
 }

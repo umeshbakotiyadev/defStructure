@@ -1,1 +1,1 @@
-export * from "./defConstatns"
+export * from "./defConstatns" 

@@ -1,0 +1,678 @@
+[
+    {
+        "geometry": {
+            "coordinates": [
+                72.585022,
+                23.033863
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Ahmedabad"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.83106,
+                21.17024
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Surat"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.181213,
+                22.307159
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Vadodara"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.800705,
+                22.308155
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Rajkot"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.1551,
+                21.7644
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Bhavnagar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.0586,
+                22.2708
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Jamnagar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.4564,
+                21.5155
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Junagadh"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.6369,
+                23.2156
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Gandhinagar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.9222,
+                22.5717
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Anand"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.8617,
+                22.7069
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Nadiad"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.823616,
+                22.811989
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Morbi"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.6403,
+                22.6375
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Surendranagar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                69.6678,
+                23.2417
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Bhuj"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                69.6044,
+                21.6427
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Porbandar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.6617,
+                22.7717
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Godhra"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.1333,
+                23.8417
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Patan"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                74.2667,
+                22.8333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Dahod"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.2306,
+                21.3633
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Amreli"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.9358,
+                20.6033
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Valsad"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.9044,
+                20.3722
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Vapi"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.9667,
+                21.7000
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Botad"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.2167,
+                22.9333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Surendranagar Dudhrej"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.3167,
+                22.4833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Halol"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.7833,
+                21.8333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Palitana"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.0333,
+                22.9167
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Modasa"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.3500,
+                23.0833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Viramgam"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.9000,
+                21.0333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Veraval"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.6833,
+                21.9667
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Mahuva"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.4500,
+                23.6000
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Himmatnagar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.8167,
+                20.9333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Una"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.4000,
+                23.7000
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Radhanpur"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.5833,
+                23.0333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Kapadvanj"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.1333,
+                22.0833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Jasdan"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.7833,
+                23.4667
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Prantij"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.3500,
+                22.4333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Wankaner"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.8667,
+                21.9000
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Vyara"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.4500,
+                20.8000
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Kodinar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.3167,
+                23.7333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Idar"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.0167,
+                23.5833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Bhachau"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.9667,
+                23.1667
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Lunawada"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.0667,
+                22.9667
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Dhrangadhra"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.7000,
+                20.9667
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Gandevi"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.5500,
+                23.5500
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Mansa"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.6000,
+                21.3500
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Keshod"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.9167,
+                21.7833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Songadh"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.9333,
+                23.6833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Bayad"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.1833,
+                22.6167
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Upleta"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.4000,
+                23.2667
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Balasinor"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                71.6833,
+                21.1333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Savarkundla"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                72.4833,
+                21.4833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Rajula"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                70.9833,
+                23.1833
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Dhoraji"
+        },
+        "type": "Feature"
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                73.6333,
+                23.5333
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "name": "Meghraj"
+        },
+        "type": "Feature"
+    }
+]

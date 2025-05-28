@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { AppStack } from '../utils';
-import { HomeScr } from '../screens';
+import { MapWithClusteringScr } from '../screens';
 
 const AppRoute = () => {
 
@@ -12,7 +12,7 @@ const AppRoute = () => {
         <AppStack.Navigator screenOptions={{
             headerShown: false
         }} >
-            <AppStack.Screen name='HomeScr' component={HomeScr} />
+            <AppStack.Screen name='MapWithClusteringScr' component={MapWithClusteringScr} />
         </AppStack.Navigator>
     </NavigationContainer>
 }
