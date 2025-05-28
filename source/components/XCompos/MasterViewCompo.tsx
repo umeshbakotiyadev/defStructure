@@ -27,28 +27,27 @@ const MasterViewCompo = ({
             {(header ? header : <HeaderXCompo {...headerProps} />)}
             <View style={{ flex: 1, backgroundColor: bgCol2 ? bgCol2 : bgCol }}>
                 {tSvg && tSvg}
-                {
-                    fixed ? (
-                        <View style={{ flex: 1 }} >
-                            {children}
-                        </View>
-                    ) : gScroll ? (
-                        <ScrollViewG
-                            nestedScrollEnabled={true}
-                            showsVerticalScrollIndicator={false}
-                            automaticallyAdjustKeyboardInsets={autoAdujKeyInsets}
-                            keyboardShouldPersistTaps={keyboardShouldPersistTaps}
-                            style={{ flex: 1, backgroundColor: bgCol, }}
-                            contentContainerStyle={[style]}
-                        >{children}</ScrollViewG>
-                    ) : (<ScrollView
+                {fixed ? (
+                    <View style={{ flex: 1 }} >
+                        {children}
+                    </View>
+                ) : gScroll ? (
+                    <ScrollViewG
                         nestedScrollEnabled={true}
                         showsVerticalScrollIndicator={false}
                         automaticallyAdjustKeyboardInsets={autoAdujKeyInsets}
                         keyboardShouldPersistTaps={keyboardShouldPersistTaps}
                         style={{ flex: 1, backgroundColor: bgCol, }}
                         contentContainerStyle={[style]}
-                    >{children}</ScrollView>)
+                    >{children}</ScrollViewG>
+                ) : (<ScrollView
+                    nestedScrollEnabled={true}
+                    showsVerticalScrollIndicator={false}
+                    automaticallyAdjustKeyboardInsets={autoAdujKeyInsets}
+                    keyboardShouldPersistTaps={keyboardShouldPersistTaps}
+                    style={{ flex: 1, backgroundColor: bgCol, }}
+                    contentContainerStyle={[style]}
+                >{children}</ScrollView>)
                 }
                 {bSvg && bSvg}
             </View>

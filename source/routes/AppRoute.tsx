@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { AppStack } from '../utils';
-import BottomTab from './BottomTab';
+import { HomeScr } from '../screens';
 
 const AppRoute = () => {
 
@@ -9,8 +9,10 @@ const AppRoute = () => {
     const [isSp, setIsSp] = useState<boolean>(true);
 
     return <NavigationContainer>
-        <AppStack.Navigator>
-            <AppStack.Screen name={"BottomTab"} component={BottomTab} options={{ headerShown: false }} />
+        <AppStack.Navigator screenOptions={{
+            headerShown: false
+        }} >
+            <AppStack.Screen name='HomeScr' component={HomeScr} />
         </AppStack.Navigator>
     </NavigationContainer>
 }

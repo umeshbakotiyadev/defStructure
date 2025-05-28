@@ -18,7 +18,6 @@ const useThemeXSty = () => {
         col, font, ...sAI
     }), [col, font, sAI]);
 
-    // const compSty = compStyleFunc(defStyOBJ);
     const hdSty = HeaderStyFN(defStyOBJ);
     const cpSty = CompoStyFN(defStyOBJ);
 
